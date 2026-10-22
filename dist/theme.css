@@ -341,25 +341,21 @@ h2 em {
   box-shadow: 16px -50px 0 -2px #9b5bdc;
 }
 
-.solution-section,
-.results-section {
+.solution-section {
   background: #ececf7;
   color: #171d64;
 }
 
-.solution-section .section-kicker,
-.results-section .section-kicker {
+.solution-section .section-kicker {
   color: #5b2db6;
 }
 
 .solution-section .section-heading > p,
-.solution-section .solution-flow p,
-.results-section .section-heading.horizontal > p {
+.solution-section .solution-flow p {
   color: #6e7397;
 }
 
-.solution-flow article,
-.result-card {
+.solution-flow article {
   background: rgba(255,255,255,.7);
   border-color: rgba(37, 43, 121, .12);
   border-radius: 14px;
@@ -518,30 +514,6 @@ h2 em {
 .code-lines i:nth-child(2),
 .code-lines i:nth-child(4) {
   background: #d6cff0;
-}
-
-.result-card strong {
-  color: #8b8fab;
-}
-
-.result-card p,
-.result-card > span {
-  color: #747999;
-}
-
-.result-card.featured {
-  background: linear-gradient(145deg, #232980, #6236b6);
-  color: #fff;
-  border-color: transparent;
-}
-
-.result-card.featured strong {
-  color: #d7bdf9;
-}
-
-.result-card.featured p,
-.result-card.featured > span {
-  color: #d8d5ec;
 }
 
 .contact-section {
