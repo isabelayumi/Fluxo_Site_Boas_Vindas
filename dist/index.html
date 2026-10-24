@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./reference-layout.css" />
     <link rel="stylesheet" href="./theme-light.css" />
     <script src="./script.js" defer></script>
+    <script src="./model-viewer.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
@@ -60,7 +61,7 @@
         <div class="container hero-grid">
           <div class="hero-copy reveal">
             <div class="eyebrow"><span class="pulse"></span> FIAP × FESTO — Challenge 2026 · Metaindústria</div>
-            <h1>Célula Industrial Integrada de <em>Embalagem, Transporte e Paletização Inteligente</em></h1>
+            <h1><em>Embalagem, Transporte e Paletização Inteligente</em></h1>
             <p class="hero-lead">O <strong>Fluxo</strong> integra uma Flow Pack, uma esteira sensorizada e um robô paletizador em um protótipo funcional, criado para validar o sincronismo da linha antes do escalonamento industrial.</p>
             <div class="hero-features" aria-label="Recursos principais">
               <span>◉ Selagem térmica</span>
@@ -318,9 +319,27 @@
             <p>Área preparada para registrar a Flow Pack, a miniesteira, o braço robótico e os bastidores da integração.</p>
           </div>
           <div class="gallery-grid">
-            <div class="gallery-item gallery-main reveal"><div class="gallery-placeholder"><span>01</span><b>Imagem principal</b><small>Registro do projeto</small></div></div>
-            <div class="gallery-item reveal"><div class="gallery-placeholder"><span>02</span><b>Detalhe</b><small>Interface & interação</small></div></div>
-            <div class="gallery-item reveal"><div class="gallery-placeholder"><span>03</span><b>Bastidores</b><small>Processo & equipe</small></div></div>
+            <figure class="gallery-item gallery-main gallery-model reveal" data-model-viewer tabindex="0" aria-describedby="model-viewer-help" aria-label="Modelo tridimensional interativo da linha industrial integrada">
+              <div class="gallery-model-stage" data-model-stage>
+                <canvas class="gallery-model-canvas" data-model-canvas aria-hidden="true"></canvas>
+              </div>
+              <div class="gallery-model-toolbar">
+                <span><i></i> 01 / MODELO 3D</span>
+                <button type="button" data-model-reset aria-label="Restaurar posição da visualização">Centralizar</button>
+              </div>
+              <figcaption class="gallery-model-caption">
+                <b>Linha industrial integrada <em>3D</em></b>
+                <small id="model-viewer-help">Botão direito: girar · roda: zoom · duplo clique: centralizar</small>
+              </figcaption>
+            </figure>
+            <figure class="gallery-item gallery-reference reveal">
+              <img src="./assets/linha-integrada-cad-sem-marcacao.png" alt="Renderização CAD usada como referência para o modelo tridimensional" />
+              <figcaption><span>02 / REFERÊNCIA CAD</span><b>Renderização original</b><small>Modelagem real do projeto</small></figcaption>
+            </figure>
+            <figure class="gallery-item gallery-reference gallery-robot reveal">
+              <img src="./assets/braco-robotico-bancada.png" alt="Braço robótico azul do protótipo com ventosa pneumática durante montagem e testes em bancada" />
+              <figcaption><span>03 / PROTÓTIPO REAL</span><b>Braço robótico articulado</b><small>Montagem e testes em bancada</small></figcaption>
+            </figure>
           </div>
         </div>
       </section>
