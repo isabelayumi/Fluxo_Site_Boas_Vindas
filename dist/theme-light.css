@@ -99,8 +99,7 @@ html[data-theme="light"] .text-link,
 html[data-theme="light"] .live-label,
 html[data-theme="light"] .screen-action,
 html[data-theme="light"] .timeline small,
-html[data-theme="light"] .gallery-placeholder span,
-html[data-theme="light"] .console-top i { color: #5d55cf; }
+html[data-theme="light"] .gallery-placeholder span { color: #5d55cf; }
 
 html[data-theme="light"] .eyebrow {
   background: rgba(255, 255, 255, .72);
@@ -185,8 +184,7 @@ html[data-theme="light"] .chip-bottom b { color: #5d50ca; }
 html[data-theme="light"] .orbit { border-color: rgba(96, 78, 203, .13); }
 
 html[data-theme="light"] .intro-section,
-html[data-theme="light"] .timeline-section,
-html[data-theme="light"] .tech-section { background: #f1f2fa; }
+html[data-theme="light"] .timeline-section { background: #f1f2fa; }
 html[data-theme="light"] .split-section { background: #fafaff; }
 html[data-theme="light"] .gallery-section { background: #f5f5fc; }
 html[data-theme="light"] .solution-section { color: var(--text); background: #eceef8; }
@@ -199,7 +197,6 @@ html[data-theme="light"] .section-kicker span {
 html[data-theme="light"] .principle-card,
 html[data-theme="light"] .partner-card,
 html[data-theme="light"] .system-card,
-html[data-theme="light"] .control-card,
 html[data-theme="light"] .solution-flow article {
   background: rgba(255, 255, 255, .90);
   border-color: rgba(60, 52, 132, .11);
@@ -207,8 +204,7 @@ html[data-theme="light"] .solution-flow article {
 }
 
 html[data-theme="light"] .principle-card:hover,
-html[data-theme="light"] .system-card:hover,
-html[data-theme="light"] .control-card:hover {
+html[data-theme="light"] .system-card:hover {
   background: #fff;
   border-color: rgba(92, 75, 196, .25);
   box-shadow: 0 24px 60px rgba(44, 38, 102, .11);
@@ -217,8 +213,7 @@ html[data-theme="light"] .control-card:hover {
 html[data-theme="light"] .card-index,
 html[data-theme="light"] .principle-card p,
 html[data-theme="light"] .note-tag,
-html[data-theme="light"] .system-card p,
-html[data-theme="light"] .control-card p { color: #747088; }
+html[data-theme="light"] .system-card p { color: #747088; }
 
 html[data-theme="light"] .line-icon {
   border-color: rgba(101, 82, 217, .23);
@@ -279,21 +274,6 @@ html[data-theme="light"] .gallery-item {
 html[data-theme="light"] .gallery-placeholder { background-image: radial-gradient(circle at 60% 35%, rgba(101,82,217,.10), transparent 30%), linear-gradient(115deg, transparent 46%, rgba(68,111,224,.08) 47% 48%, transparent 49%); }
 html[data-theme="light"] .gallery-placeholder::before { border-color: rgba(92,74,194,.15); box-shadow: 0 0 0 50px rgba(92,74,194,.02), 0 0 0 100px rgba(92,74,194,.01); }
 html[data-theme="light"] .gallery-placeholder small { color: #77738c; }
-
-html[data-theme="light"] .tech-console {
-  background: rgba(255,255,255,.90);
-  border-color: rgba(65, 56, 142, .12);
-  box-shadow: 0 28px 72px rgba(44, 39, 101, .10);
-}
-html[data-theme="light"] .console-sidebar { background: #f1f1f9; border-color: var(--line); }
-html[data-theme="light"] .console-sidebar span,
-html[data-theme="light"] .console-top { color: #75718b; }
-html[data-theme="light"] .console-sidebar .active { color: #5d4fc9; border-color: #6552d9; background: rgba(101,82,217,.06); }
-html[data-theme="light"] .tech-tags span { color: #3e3a56; background: #fafaff; border-color: rgba(62,55,132,.12); }
-html[data-theme="light"] .tech-tags span:hover { color: #5945c6; border-color: #6552d9; }
-html[data-theme="light"] .code-lines i { background: #e9e8f4; }
-html[data-theme="light"] .code-lines i:nth-child(2),
-html[data-theme="light"] .code-lines i:nth-child(4) { background: #ddd9ef; }
 
 html[data-theme="light"] .contact-section {
   color: #fff;

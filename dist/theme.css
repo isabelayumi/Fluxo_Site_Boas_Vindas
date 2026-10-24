@@ -245,8 +245,7 @@ h2 em {
 
 .intro-section,
 .timeline-section,
-.gallery-section,
-.tech-section {
+.gallery-section {
   background: #f5f5fb;
 }
 
@@ -413,8 +412,7 @@ h2 em {
   box-shadow: 0 0 0 50px rgba(104,58,190,.025), 0 0 0 100px rgba(104,58,190,.015);
 }
 
-.gallery-placeholder span,
-.console-top i {
+.gallery-placeholder span {
   color: #7541cf;
 }
 
@@ -469,51 +467,6 @@ h2 em {
 
 .feature-list li {
   color: #5f658b;
-}
-
-.tech-console {
-  background: rgba(255,255,255,.74);
-  border-color: rgba(34,40,116,.14);
-  border-radius: 16px;
-  box-shadow: 0 30px 70px rgba(43,42,103,.09);
-  overflow: hidden;
-}
-
-.console-sidebar {
-  border-color: var(--line);
-  background: #efeff9;
-}
-
-.console-sidebar span,
-.console-top {
-  color: #777c9c;
-}
-
-.console-sidebar .active {
-  color: #6937c1;
-  border-color: #7140c9;
-  background: rgba(114,64,209,.07);
-}
-
-.tech-tags span {
-  border-color: rgba(42,48,126,.14);
-  color: #2c327d;
-  background: #f7f6fc;
-  border-radius: 999px;
-}
-
-.tech-tags span:hover {
-  border-color: #7140cb;
-  color: #6133b9;
-}
-
-.code-lines i {
-  background: #e5e5f1;
-}
-
-.code-lines i:nth-child(2),
-.code-lines i:nth-child(4) {
-  background: #d6cff0;
 }
 
 .contact-section {
